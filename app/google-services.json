@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "348980987100",
+    "firebase_url": "https://supermrcket.firebaseio.com",
+    "project_id": "supermrcket",
+    "storage_bucket": "supermrcket.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348980987100:android:1a449d9e10467878172019",
+        "android_client_info": {
+          "package_name": "com.example.supermrcket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348980987100-4nbh6hbtq0jc1ut1tjjvivilf43cfrfr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr4YOK13mgyWiTpAJgkO6yhM8NOig8-JY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348980987100-4nbh6hbtq0jc1ut1tjjvivilf43cfrfr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.supermrcket">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Upon_receipt" />
+        <activity android:name=".startActivty" />
+        <activity android:name=".Send_order" />
+        <activity android:name=".Order_Admin" />
+        <activity android:name=".onlinepayment" />
+        <activity android:name=".Login" />
+        <activity android:name=".Milk.milk" />
+        <activity android:name=".Fruits.Fruits" />
+        <activity android:name=".Fruits.details" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <!-- Sample AdMob App ID: ca-app-pub-3940256099942544~3347511713 -->
+
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

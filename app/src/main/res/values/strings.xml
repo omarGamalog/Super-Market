@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Supermarket</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Contact us</string>
+    <string name="producer">producer</string>
+    <string name="title_notifications">upload</string>
+    <string name="Fruits">Fruits</string>
+    <string name="Order_wait">Order wait</string>
+</resources>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ImageView
+        android:id="@+id/imageView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="48dp"
+        android:src="@drawable/ic_fiber_manual_record_black_24dp"
+        app:layout_constraintBottom_toBottomOf="@+id/Order"
+        app:layout_constraintEnd_toEndOf="@+id/Order" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/Order"
+        android:layout_width="57dp"
+        android:layout_height="57dp"
+        android:layout_gravity="bottom|end"
+
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        app:backgroundTint="@color/cardview_dark_background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hhh"
+        app:layout_constraintVertical_bias="0.455"
+        app:rippleColor="#FFFFFF"
+        app:srcCompat="@drawable/nnnnhhn" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="66dp"
+        android:layout_height="33dp"
+        android:fontFamily="@font/akronim"
+        android:text="Fruits"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/Fruits_Image"
+        app:layout_constraintHorizontal_bias="0.603"
+        app:layout_constraintStart_toStartOf="@+id/Fruits_Image"
+        app:layout_constraintTop_toBottomOf="@+id/Fruits_Image" />
+
+    <TextView
+        android:id="@+id/hhh"
+        android:layout_width="68dp"
+        android:layout_height="34dp"
+        android:fontFamily="@font/akronim"
+        android:text="Milk"
+
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/Milk"
+        app:layout_constraintHorizontal_bias="0.732"
+        app:layout_constraintStart_toStartOf="@+id/Milk"
+        app:layout_constraintTop_toBottomOf="@+id/Milk" />
+
+    <ImageView
+        android:id="@+id/Fruits_Image"
+        android:layout_width="124dp"
+        android:layout_height="157dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.656"
+        app:srcCompat="@drawable/fruts" />
+
+    <ImageView
+        android:id="@+id/Milk"
+        android:layout_width="124dp"
+        android:layout_height="157dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginRight="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/Fruits_Image"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/milkimage" />
+
+    <com.denzcoskun.imageslider.ImageSlider
+        android:id="@+id/imageSlider"
+        android:layout_width="403dp"
+        android:layout_height="234dp"
+        android:background="@android:drawable/editbox_dropdown_dark_frame"
+        app:layout_constraintBottom_toTopOf="@+id/Milk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:sliderAnimationDuration="600"
+        app:sliderAutoCycleDirection="back_and_forth"
+        app:sliderAutoCycleEnabled="true"
+        app:sliderIndicatorAnimationDuration="600"
+        app:sliderIndicatorGravity="center_horizontal|bottom"
+        app:sliderIndicatorMargin="15dp"
+        app:sliderIndicatorOrientation="horizontal"
+        app:sliderIndicatorPadding="3dp"
+        app:sliderIndicatorRadius="2dp"
+        app:sliderIndicatorSelectedColor="#5A5A5A"
+        app:sliderIndicatorUnselectedColor="#FFF"
+        app:sliderScrollTimeInSec="1"
+        app:sliderStartAutoCycle="true" >
+
+    </com.denzcoskun.imageslider.ImageSlider>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

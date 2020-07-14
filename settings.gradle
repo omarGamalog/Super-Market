@@ -1,0 +1,2 @@
+rootProject.name='supermrcket'
+include ':app'
